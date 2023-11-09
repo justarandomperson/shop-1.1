@@ -1,0 +1,30 @@
+.cartProducts {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.cartProduct {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.5em auto;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.459);
+}
+
+.cartProduct  h2{
+    width: 25em;
+    margin-left: 0.5em;
+}
+
+.cartProduct .btn {
+    color: red;
+    border: 1px red solid;
+    margin: 0 3em;
+}
+
+.cartProduct .btn:hover{
+    color: white;
+    background-color: red;
+}
